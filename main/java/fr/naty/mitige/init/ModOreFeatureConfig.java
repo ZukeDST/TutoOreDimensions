@@ -29,9 +29,11 @@ public class ModOreFeatureConfig implements IFeatureConfig {
       this.target = p_i241989_1_;
    }
 
-   //on supprime le contenu ci dessous, pour le remplacer par celui qu'on veut, avec RuleTest NOM_DE_LA_REGLE et TagMatchRuleTest(Definition.NOMDELADEFINITION)
+   //on supprime le contenu ci dessous, pour le remplacer par celui qu'on veut.
    public static final class FillerBlockType {
-      public static final RuleTest END = new TagMatchRuleTest(BlockTags.DRAGON_IMMUNE);;
-      //ici j'ai utilisé le tag DRAGON_IMMUNE
+      public static final RuleTest DEMO = new TagMatchRuleTest(BlockTags.DRAGON_IMMUNE);
+      //ici j'ai utilisé le tag DRAGON_IMMUNE, donc tous les blocs qui ne seront pas détruit par un passage du dragon 
+      public static final RuleTest END_STONE = new BlockMatchRuleTest(Blocks.END_STONE);
+      //ici j'ai utilisé le bloc d'end stone, tout simplement
    }
 }
