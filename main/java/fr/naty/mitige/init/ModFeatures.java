@@ -17,13 +17,14 @@ public class ModFeatures {
 
     public ConfiguredFeature<?, ?> ORE_BESKAR_FEATURE;
 
+    //on fait appel a ModOreFeature au lieu de OreFeature, puis on utilise la regle etablie dans cette classe (ici END)
     public void init()
     {
         ORE_BESKAR_FEATURE = register("ore_beskar", Feature.ORE.withConfiguration(new OreFeatureConfig(ModOreFeatureConfig.FillerBlockType.END, MitigeBlocks.Beskar_ore.get().getDefaultState(), 3))
         .square()
         .range(40)
         .func_242731_b(4));
-        // /fill ~ ~ ~ ~16 ~-16 ~16 air replace end_stone
+        // pour voir la generation du minerais, utiliser catte commande (sur toute la hauteur definie), ou utiliser un pack Xray: /fill ~ ~ ~ ~16 ~-16 ~16 air replace end_stone
     } 
 
     public <FC extends IFeatureConfig> ConfiguredFeature<FC, ?> register(String name, ConfiguredFeature<FC, ?> feature)
