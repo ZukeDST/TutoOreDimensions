@@ -29,7 +29,7 @@ public class ModOreFeatureConfig implements IFeatureConfig {
       this.target = p_i241989_1_;
    }
 
-   //on supprime le contenu ci dessous, pour le remplacer par celui qu'on veut, avec RuleTest *NOM* et TagMatchRuleTest(Definition.NOMDELADEFINITION)
+   //on supprime le contenu ci dessous, pour le remplacer par celui qu'on veut, avec RuleTest *NOM_DE_LA_REGLE* et TagMatchRuleTest(Definition.NOMDELADEFINITION)
    public static final class FillerBlockType {
       public static final RuleTest END = new TagMatchRuleTest(BlockTags.DRAGON_IMMUNE);;
       //ici j'ai utilisé le tag DRAGON_IMMUNE
