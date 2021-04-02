@@ -1,4 +1,4 @@
-package fr.naty.mitige.blocks;
+package fr.naty.tutoore.blocks;
 
 import java.util.function.Supplier;
 import fr.naty.mitige.mitige;
@@ -19,7 +19,7 @@ public class MitigeBlocks {
 
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, mitige.MODID);
    
-    public static final RegistryObject<Block> Beskar_ore = createBlock( "beskar_ore", () -> new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(3f, 15f).harvestTool(ToolType.PICKAXE).harvestLevel(3).setRequiresTool().sound(SoundType.ANCIENT_DEBRIS)));
+    public static final RegistryObject<Block> End_ore = createBlock( "end_ore", () -> new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(3f, 15f).harvestTool(ToolType.PICKAXE).harvestLevel(3).setRequiresTool().sound(SoundType.ANCIENT_DEBRIS)));
 
     public static RegistryObject<Block> createBlock(String name, Supplier<? extends Block> supplier)
     {
