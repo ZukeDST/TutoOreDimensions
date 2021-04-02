@@ -1,5 +1,5 @@
 # TutoOreDimensions
-comment générer un minerais dans l'end(ou tout ce que vous voulez tant que c'est dans Minecraft, il suffit de vous adapter un minuscule peu^^)
+comment générer un minerais dans l'end (ou dans tout ce que vous voulez tant que c'est dans Minecraft, il suffit de vous adapter un minuscule peu^^)
 
 Tout d'abord suivre la vidéo de Zom' sur la géneration de minerais (https://www.youtube.com/watch?v=tHJTESns7LU)
 
