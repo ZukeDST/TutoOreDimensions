@@ -1,8 +1,0 @@
-{
-"parent": "minecraft:block/orientable",
-  "textures": {
-    "top": "mitige:block/mitige_block_top",
-    "front": "mitige:block/mitige_block",
-    "side": "mitige:block/mitige_block_side"
-    }
-}
