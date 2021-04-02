@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"YIY",
+		"XXX"
+	],
+	"key": {
+		"X": {
+			"item": "mitige:cereal"
+		},
+		"I": {
+			"item": "minecraft:sugar"
+		},
+		"Y": {
+			"item": "minecraft:cocoa_beans"
+		}
+	},
+	"result": {
+		"item": "mitige:nrj_choc"
+	}
+}
