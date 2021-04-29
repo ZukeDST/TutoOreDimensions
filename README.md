@@ -3,6 +3,8 @@ comment générer un minerais dans l'end (ou dans tout ce que vous voulez tant q
 
 Tout d'abord suivre la vidéo de Zom' sur la géneration de minerais (https://www.youtube.com/watch?v=tHJTESns7LU)
 
+MàJ: petites modifications due au passage en 1.16.4 vers la 1.16.5
+
 Ici, on ne parlera que du package init crée dans le tuto.
 
 -on commence par créer une classe "ModOreFeatureConfig":
