@@ -16,4 +16,4 @@ Ici, on ne parlera que du package init crée dans le tuto.
 tips: en jeu, quand le menu F3 est ouvert, on peut apercevoir les tag des blocs visées (#enderman_holdable, #dragon_immune, etc..)
 
 
-MàJ: petites modifications due au passage en 1.16.4 vers la 1.16.5 sur le ModFeatures (withConfiguration => configured; getDefaultState => defaultBlockState; func-jesaisplusquoi => count) et sur le ModOreFeatureConfig (
+MàJ: petites modifications due au passage en 1.16.4 vers la 1.16.5 sur le ModFeatures (withConfiguration => configured; getDefaultState => defaultBlockState; func-jesaisplusquoi => count) et sur le ModOreFeatureConfig (field_beacoup_c_ => CODEC).
