@@ -11,7 +11,7 @@ import net.minecraft.world.gen.feature.template.TagMatchRuleTest;
 
 public class ModOreFeatureConfig implements IFeatureConfig {
    public static final Codec<ModOreFeatureConfig> CODEC = RecordCodecBuilder.create((p_236568_0_) -> {
-      return p_236568_0_.group(RuleTest.field_237127_c_.fieldOf("target").forGetter((config) -> {
+      return p_236568_0_.group(RuleTest.CODEC.fieldOf("target").forGetter((config) -> {
          return config.target;
       }), BlockState.CODEC.fieldOf("state").forGetter((config) -> {
          return config.state;
