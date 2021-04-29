@@ -20,10 +20,10 @@ public class ModFeatures {
     //on fait appel a ModOreFeature au lieu de OreFeature, puis on utilise la regle etablie dans cette classe (ici END)
     public void init()
     {
-        ORE_BESKAR_FEATURE = register("ore_beskar", Feature.ORE.withConfiguration(new OreFeatureConfig(ModOreFeatureConfig.FillerBlockType.END_STONE, MitigeBlocks.Beskar_ore.get().getDefaultState(), 3))
+        ORE_BESKAR_FEATURE = register("ore_beskar", Feature.ORE.configured(new OreFeatureConfig(ModOreFeatureConfig.FillerBlockType.END_STONE, MitigeBlocks.Beskar_ore.get().DefaultBlockState(), 3))
         .square()
         .range(40)
-        .func_242731_b(4));
+        .count(4));
         // pour voir la generation du minerais, utiliser catte commande (sur toute la hauteur definie), ou utiliser un pack Xray: /fill ~ ~ ~ ~16 ~-16 ~16 air replace end_stone
     } 
 
