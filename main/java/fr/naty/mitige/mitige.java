@@ -16,27 +16,20 @@ public class mitige {
 	public static final String MODID = "mitige";
 	
 	public mitige() 
-	{
-		
+	{	
 		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
 		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::clientSetup);
 		
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-		MitigeItems.ITEMS.register(bus);
 		MitigeBlocks.BLOCKS.register(bus);
-	}
-	
+	}	
 	private void setup(FMLCommonSetupEvent e)
 	{
         ModFeatures features = new ModFeatures();
         features.init();
-        MinecraftForge.EVENT_BUS.register(features);		
-		
+        MinecraftForge.EVENT_BUS.register(features);			
 	}
-	
-	private void clientSetup(FMLClientSetupEvent e)
-	{
-		
-		
+		private void clientSetup(FMLClientSetupEvent e)
+	{	
 	}
 }
