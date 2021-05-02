@@ -25,8 +25,5 @@ public class MitigeBlocks {
         RegistryObject<Block> block = BLOCKS.register(name, supplier);
         MitigeItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
         return block;
-    }
-    
-    
-    
+    }    
 }   
